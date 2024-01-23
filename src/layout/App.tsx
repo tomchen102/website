@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { Outlet } from "react-router-dom";
-import { Button } from "@/components/ui/button.tsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +32,6 @@ function App() {
                 </nav>
             </header>
             <div className="container mx-auto">
-                <Button>click me</Button>
                 <Outlet/>
             </div>
             <div className="text-3xl">
