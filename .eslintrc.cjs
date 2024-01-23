@@ -17,6 +17,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "quotes": [2, "double"],
+    "indent": ["off", 2],
   },
   parserOptions: {
     ecmaVersion: 'latest',
