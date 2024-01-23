@@ -1,5 +1,5 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
-import App from "./App.tsx";
+import App from "./layout/App.tsx";
 
 const router = createBrowserRouter([{
     path: "/",
