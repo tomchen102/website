@@ -1,16 +1,6 @@
-import {createBrowserRouter, Navigate} from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import App from "@/layout/App.tsx";
-import {Button} from "@/components/ui/button.tsx";
-
-const Home = () => {
-    const buttonWords: string = "click me";
-    return <div>
-        home
-        <Button variant="outline" className="rounded-full">
-            {buttonWords}
-        </Button>
-    </div>;
-};
+import { Home } from "@/page/home/Home.tsx";
 
 const router = createBrowserRouter([{
     path: "/",
