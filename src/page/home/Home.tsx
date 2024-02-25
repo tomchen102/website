@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button.tsx";
+import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
@@ -8,7 +8,9 @@ export const Home = () => {
         home
         <Button variant="outline"
                 className="rounded-full"
-                onClick={() => navigate("/about")}
+                onClick={() => {
+                    navigate("/about");
+                }}
         >
             About
         </Button>
