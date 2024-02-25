@@ -1,4 +1,4 @@
-import Button from "@/components/ui/button.tsx";
+import Button from "@/components/ui/button/button.tsx";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
